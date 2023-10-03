@@ -65,7 +65,7 @@ const Form = () => {
 					value: "",
 					valid: null,
 					onChange: handleChange,
-					helperText: "Ingresa una contraseña válida, Al menos 8 caracteres y máximo 20.",
+					helperText: "Ingresa al menos 8 caracteres",
 					validator: validarPassword,
 				},
 			],
